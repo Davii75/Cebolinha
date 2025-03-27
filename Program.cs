@@ -2,7 +2,7 @@
 string repeticao;
 
 Console.WriteLine("Digite uma frase para o Cebolinha repetir:");
-frase = Console.ReadLine();
+frase = Console.ReadLine()!;
 Console.WriteLine("Cebolinha:");
 repeticao = frase
             .Replace("r", "l")
